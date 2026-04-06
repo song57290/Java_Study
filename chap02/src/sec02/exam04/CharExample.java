@@ -5,13 +5,17 @@ public class CharExample {
 		
 		char c1 = 'A';
 		char c2 = 65; // 65에 대한 문자열을 반환 => A를 반환 
-		char c3 = '가';
-		char c4 = '각';
+		char c3 = '\u0041'; // 유니코드로
+		char c4 = '가';
+		char c5 = 44032;
+		char c6 = '\uAC00';
 		
 		System.out.println(c1);
 		System.out.println(c2);
 		System.out.println(c3);
 		System.out.println(c4);
+		System.out.println(c5);
+		System.out.println(c6);
 		
 	}
 }
