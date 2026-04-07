@@ -14,7 +14,7 @@ public class PrimitiveAndStringConversionExample {
 		System.out.println("value3: " + value3);
 		
 		int value4 = 10;
-		String str2 = String.valueOf(value4); // 정수형을 문자열 타입으로 볂환
+		String str2 = String.valueOf(value4); // 정수형을 문자열 타입으로 변환
 		String str3 = String.valueOf("3.14");
 		String str4 = String.valueOf(true);
 		
